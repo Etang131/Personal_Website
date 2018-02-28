@@ -1,0 +1,42 @@
+body {
+  margin-top: 105px; }
+
+.navbar {
+  -webkit-box-shadow: 2px 2px 5px #3292a6;
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0/9;
+  background: #fff; }
+  .navbar .nav-item {
+    font-size: 1.2rem;
+    padding-right: 15px; }
+
+#showcase {
+  position: relative;
+  background: url("../img/background_image_one.jpg");
+  min-height: 600px; }
+
+#Projects img {
+  margin-top: -50px; }
+
+#Projects .fa {
+  font-size: 25px; }
+
+#Projects .card:hover {
+  background: #3292a6;
+  color: #fff; }
+  #Projects .card:hover .fa {
+    color: #fff; }
+
+.Contact-messages {
+  width: 70%;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  color: #333; }
+
+.success {
+  background-color: rgba(38, 191, 68, 0.8); }
+
+.error {
+  background-color: rgba(209, 46, 46, 0.8); }

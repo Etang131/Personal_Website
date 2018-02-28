@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Erik Tangvik</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="home">
+  <nav class="navbar navbar-expand-md navbar-light fixed-top py-4">
+    <div class="container">
+      <a href="index.html" class="navbar-brand">
+        <img src="img/ET-logo.png" width="85" height="85" alt=""><h3 class="d-inline align-middle">Erik Tangvik</h3>
+      </a>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#About" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- SHOWCASE -->
+<section id="showcase" class="py-5">
+<div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <h1 class="display-2 mt-5 pt-5">
+          Front End Web Developer
+        </h1>
+        <p class="lead"></p>
+      </div>
+      <div class="col-lg-6 text-center">
+        <img src="img/profile_picture_one.jpg" width="325" height="400"alt="Picture of me" class="img-fluid">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- About Me -->
+<section id="About" class="py-5 text-center bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="info-header mb-5">
+          <h1 class="text-primary pb-3">
+            Everything About Me!
+          </h1>
+          <p class="lead pb-3">
+I graduated fall of 2016 from Northern Kentucky University with a degree in Business Administration. While in school with my electives I tried an array of different courses that really opened my eyes to what was out there however, I didn’t pressure them as they were just dreams that would keep me in college forever if it did them all. After graduation I moved to Dallas Texas; which would soon start a spark. After a few months of looking I saw every job ad needed technological skills that I didn’t have…. With college costs raising; I began researching cheaper alternatives to learn those missing skills, and with a little time myself taught journey began.   </p>
+        </div>
+
+        <!-- ACCORDION -->
+        <div id="accordion" role="tablist">
+          <div class="card">
+            <div class="card-header" id="heading1">
+              <h5 class="mb-0">
+                <div href="#collapse1" data-toggle="collapse" data-parent="#accordion">
+                  <i class="fa fa-arrow-circle-down"></i> Web Development!
+                </div>
+              </h5>
+            </div>
+
+            <div id="collapse1" class="collapse show">
+              <div class="card-body">
+                I started web development in November 2017 while working full time. I am self-taught with several courses on Udemy, and other online resources. My current short term goals are to improve upon my front-end skills, and long term goals are learning the back end. Overall it has been an adventurous journey, and I can’t wait to learn even more.
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="heading2">
+              <h5 class="mb-0">
+                <div href="#collapse2" data-toggle="collapse" data-parent="#accordion">
+                  <i class="fa fa-arrow-circle-down"></i> What I am Foccused on now.
+                </div>
+              </h5>
+            </div>
+
+            <div id="collapse2" class="collapse">
+              <div class="card-body">
+                Currently I am working on improving my JavaScript, and then later moving on to Python so I can learn some backend material.
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="heading3">
+              <h5 class="mb-0">
+                <div href="#collapse3" data-toggle="collapse" data-parent="#accordion">
+                  <i class="fa fa-arrow-circle-down"></i> Hobbies.
+                </div>
+              </h5>
+            </div>
+
+            <div id="collapse3" class="collapse">
+              <div class="card-body">
+                When I am not working on web development, I am often studying Korean and Norwegian. I am an A1 level in both, but I should advance to A2 in both by the end of year. When I am not studying I enjoy watching movies, reading, and traveling the world.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills -->
+<section id="Skills" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card text-center border-primary">
+          <div class="card-body">
+            <h3 class="text-primary">HTMl 5</h3>
+            <p class="text-muted">You could say I know some tags in high and low places.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center bg-primary text-white">
+          <div class="card-body">
+            <h3>CSS3</h3>
+            <p>I am developing my design skills still, but I can still make a great looking site.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center border-primary">
+          <div class="card-body">
+            <h3 class="text-primary">Bootstrap</h3>
+            <p class="text-muted">This site is a testement to the ease of Bootstrap.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card text-center bg-primary text-white">
+          <div class="card-body">
+            <h3>JavaScript</h3>
+            <p>Currently focuused on improving this skill.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Projects-->
+<section id="Projects" class="my-5 text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="info-header mb-5">
+          <h1 class="text-primary pb-3">
+            What I have worked on So far.
+          </h1>
+          <p class="lead pb-3">
+Some of my personal projects, and client projects. Non-listed projects will be on my github or private by customer request.           </p>
+        </div>
+      </div>
+    </div>
+              <!-- First Project copy format for next project -->
+              <section id="Projects" class="my-5 text-center">
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <div class="info-header mb-5">
+                        <h1 class="text-primary pb-3">
+                          Past Projects
+                        </h1>
+                        <p class="lead pb-3">
+                          .
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                      <div class="card">
+                        <div class="card-body">
+                          <img src="img/person1.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                          <h3>Omifood</h3>
+                          <h5 class="text-muted">Website</h5>
+                          <p>A website for a fake food deleivery company.</p>
+                          <div class="d-flex flex-row justify-content-center">
+                            <div class="p-4">
+                              <a href="#"><i class="fa fa-github"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <div class="card">
+                        <div class="card-body">
+                          <img src="img/person2.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                          <h3>Project Two</h3>
+                          <h5 class="text-muted">Website</h5>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae molestiae alias expedita quae esse ut.</p>
+                          <div class="d-flex flex-row justify-content-center">
+                            <div class="p-4">
+                              <a href="#"><i class="fa fa-github"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <div class="card">
+                        <div class="card-body">
+                          <img src="img/person3.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                          <h3>Project Three</h3>
+                          <h5 class="text-muted">Website</h5>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae molestiae alias expedita quae esse ut.</p>
+                          <div class="d-flex flex-row justify-content-center">
+                            <div class="p-4">
+                              <a href="#"><i class="fa fa-github"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                      <div class="card">
+                        <div class="card-body">
+                          <img src="img/person4.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
+                          <h3>Project Four</h3>
+                          <h5 class="text-muted">Website</h5>
+                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae molestiae alias expedita quae esse ut.</p>
+                          <div class="d-flex flex-row justify-content-center">
+                            <div class="p-4">
+                              <a href="#"><i class="fa fa-github"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+
+<!-- Contact -->
+<section id="Contact" class="bg-light py-5" action="mailer.php">
+  <div class="container">
+
+  <?php
+  if($_GET['success'] == 1) {
+    echo "<div class=\"Contact-messages success\"> Thank you! Your messege has been sent.</div>";
+  }
+
+
+  if($_GET['success'] == -1) {
+    echo "<div class=\"Contact-messages error\"> Your Messege Was Not Sent; please try once more!</div>";
+  }
+      ?>
+
+    <div class="row">
+      <div class="col-lg">
+        <h3>Get In Touch</h3>
+        <p class="lead">Starting this May, I will be available for Front End Web Development work. If you need a website built; I would be glad to help you accomplish your goal.</p>
+        <form>
+          <div class="form-group">
+            <div class="input-group input-group-lg">
+              <span class="input-group-addon"><i class="fa fa-user"></i></span>
+              <input type="text" class="form-control" placeholder="Name">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-lg">
+              <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+              <input type="email" class="form-control" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group input-group-lg">
+              <span class="input-group-addon"><i class="fa fa-pencil"></i></span>
+              <textarea class="form-control" placeholder="Message" rows="5"></textarea>
+            </div>
+          </div>
+          <input type="submit" value="Submit" class="btn btn-primary btn-block btn-lg">
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer and Links -->
+<footer id="main-footer" class="py-1 bg-secondary text-white">
+  <div class="container">
+    <div class="d-flex flex-row justify-content-center">
+      <div class="p-4">
+        <a href="https://github.com/Etang131"><i class="fa fa-github"></i></a>
+      </div>
+      <div class="p-4">
+        <a href="https://www.linkedin.com/in/tangvikerik/"><i class="fa fa-linkedin-square"></i></a>
+      </div>
+      <div class="p-4">
+        <a href="https://www.instagram.com/etang131/"><i class="fa fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-6 ml-auto">
+        <p class="lead">Copyright &copy; 2018</p>
+      </div>
+  </div>
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/navbar-fixed.js"></script>
+</body>
+</html>
