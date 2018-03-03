@@ -8,6 +8,25 @@
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+  <link rel="manifest" href="favicons/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="favicons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
 </head>
 <body id="home">
   <nav class="navbar navbar-expand-md navbar-light fixed-top py-4">
@@ -66,7 +85,7 @@
             Everything About Me!
           </h1>
           <p class="lead pb-3">
-I graduated fall of 2016 from Northern Kentucky University with a degree in Business Administration. While in school with my electives I tried an array of different courses that really opened my eyes to what was out there however, I didn’t pressure them as they were just dreams that would keep me in college forever if it did them all. After graduation I moved to Dallas Texas; which would soon start a spark. After a few months of looking I saw every job ad needed technological skills that I didn’t have…. With college costs raising; I began researching cheaper alternatives to learn those missing skills, and with a little time myself taught journey began.   </p>
+I graduated fall of 2016 from Northern Kentucky University with a BS in Business Administration. After graduation I moved to Dallas, Texas, and started looking for jobs. However, I noticed a trend in all job postings... they wanted people with at least one technical computer skill. At the start of college that was what I initially wanted to get into, but never did. So, I set my eyes on some a pathway into the industry. I soon found that web development was in demand, and was a great way to start learning to code. So, after months self-studying I decided to do free-lance front end work on the side. Although web-development is not my end goal I find it a very rewarding experience as I learn as much as I can.  </p>
         </div>
 
         <!-- ACCORDION -->
@@ -91,7 +110,7 @@ I graduated fall of 2016 from Northern Kentucky University with a degree in Busi
             <div class="card-header" id="heading2">
               <h5 class="mb-0">
                 <div href="#collapse2" data-toggle="collapse" data-parent="#accordion">
-                  <i class="fa fa-arrow-circle-down"></i> What I am Foccused on now.
+                  <i class="fa fa-arrow-circle-down"></i> What I am Focussed on now.
                 </div>
               </h5>
             </div>
@@ -172,7 +191,7 @@ I graduated fall of 2016 from Northern Kentucky University with a degree in Busi
       <div class="col">
         <div class="info-header mb-5">
           <h1 class="text-primary pb-3">
-            What I have worked on So far.
+            What I have worked on so far.
           </h1>
           <p class="lead pb-3">
 Some of my personal projects, and client projects. Non-listed projects will be on my github or private by customer request.           </p>
@@ -198,13 +217,12 @@ Some of my personal projects, and client projects. Non-listed projects will be o
                     <div class="col-lg-3 col-md-6">
                       <div class="card">
                         <div class="card-body">
-                          <img src="img/person1.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
                           <h3>Omifood</h3>
                           <h5 class="text-muted">Website</h5>
-                          <p>A website for a fake food deleivery company.</p>
+                          <p>The first website I made via an online course.</p>
                           <div class="d-flex flex-row justify-content-center">
                             <div class="p-4">
-                              <a href="#"><i class="fa fa-github"></i></a>
+                              <a href="https://github.com/Etang131/Omnifood_Clone/" target="_blank"><i class="fa fa-github"></i></a>
                             </div>
                           </div>
                         </div>
@@ -213,13 +231,12 @@ Some of my personal projects, and client projects. Non-listed projects will be o
                     <div class="col-lg-3 col-md-6">
                       <div class="card">
                         <div class="card-body">
-                          <img src="img/person2.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
-                          <h3>Project Two</h3>
-                          <h5 class="text-muted">Website</h5>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae molestiae alias expedita quae esse ut.</p>
+                          <h3>My personal Website</h3>
+                          <h5 class="text-muted">Resume Site</h5>
+                          <p>My personal website as it is now.</p>
                           <div class="d-flex flex-row justify-content-center">
                             <div class="p-4">
-                              <a href="#"><i class="fa fa-github"></i></a>
+                              <a href="https://github.com/Etang131/Personal_Website/" target="_blank"><i class="fa fa-github"></i></a>
                             </div>
                           </div>
                         </div>
@@ -228,13 +245,12 @@ Some of my personal projects, and client projects. Non-listed projects will be o
                     <div class="col-lg-3 col-md-6">
                       <div class="card">
                         <div class="card-body">
-                          <img src="img/person3.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
-                          <h3>Project Three</h3>
+                          <h3>Bootstrap Tutorial Site</h3>
                           <h5 class="text-muted">Website</h5>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae molestiae alias expedita quae esse ut.</p>
+                          <p>A tutorial on Bootstrap four created via an Udemy course.</p>
                           <div class="d-flex flex-row justify-content-center">
                             <div class="p-4">
-                              <a href="#"><i class="fa fa-github"></i></a>
+                              <a href="https://github.com/Etang131/bootstrap_sandbox_tutorial/" target="_blank"><i class="fa fa-github"></i></a>
                             </div>
                           </div>
                         </div>
@@ -243,13 +259,12 @@ Some of my personal projects, and client projects. Non-listed projects will be o
                     <div class="col-lg-3 col-md-6">
                       <div class="card">
                         <div class="card-body">
-                          <img src="img/person4.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
-                          <h3>Project Four</h3>
+                          <h3>Glozzum Website</h3>
                           <h5 class="text-muted">Website</h5>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae molestiae alias expedita quae esse ut.</p>
+                          <p>A multi page comnpany webpage.</p>
                           <div class="d-flex flex-row justify-content-center">
                             <div class="p-4">
-                              <a href="#"><i class="fa fa-github"></i></a>
+                              <a href="https://github.com/Etang131/bootstrap_multipage_site_tutorial-/" target="_blank"><i class="fa fa-github"></i></a>
                             </div>
                           </div>
                         </div>
@@ -279,23 +294,24 @@ Some of my personal projects, and client projects. Non-listed projects will be o
       <div class="col-lg">
         <h3>Get In Touch</h3>
         <p class="lead">Starting this May, I will be available for Front End Web Development work. If you need a website built; I would be glad to help you accomplish your goal.</p>
-        <form>
+        <form action="https://formspree.io/erikjt@outlook.com"
+      method="POST">
           <div class="form-group">
             <div class="input-group input-group-lg">
               <span class="input-group-addon"><i class="fa fa-user"></i></span>
-              <input type="text" class="form-control" placeholder="Name">
+              <input type="text" class="form-control" name="name" placeholder="Name">
             </div>
           </div>
           <div class="form-group">
             <div class="input-group input-group-lg">
               <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-              <input type="email" class="form-control" placeholder="Email">
+              <input type="email" class="form-control" name="_replyto" placeholder="Email">
             </div>
           </div>
           <div class="form-group">
             <div class="input-group input-group-lg">
               <span class="input-group-addon"><i class="fa fa-pencil"></i></span>
-              <textarea class="form-control" placeholder="Message" rows="5"></textarea>
+              <textarea class="form-control" name="message" placeholder="Message" rows="5"></textarea>
             </div>
           </div>
           <input type="submit" value="Submit" class="btn btn-primary btn-block btn-lg">
@@ -310,18 +326,19 @@ Some of my personal projects, and client projects. Non-listed projects will be o
   <div class="container">
     <div class="d-flex flex-row justify-content-center">
       <div class="p-4">
-        <a href="https://github.com/Etang131"><i class="fa fa-github"></i></a>
+        <a href="https://github.com/Etang131/" target="_blank"><i class="fa fa-github"></i></a>
       </div>
       <div class="p-4">
-        <a href="https://www.linkedin.com/in/tangvikerik/"><i class="fa fa-linkedin-square"></i></a>
+        <a href="https://www.linkedin.com/in/tangvikerik/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
       </div>
       <div class="p-4">
-        <a href="https://www.instagram.com/etang131/"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.instagram.com/etang131/" target="_blank"><i class="fa fa-instagram"></i></a>
       </div>
     </div>
     <div class="row text-center">
       <div class="col-md-6 ml-auto">
         <p class="lead">Copyright &copy; 2018</p>
+        <p> Updated 1/3/18 </p>
       </div>
   </div>
 </footer>
