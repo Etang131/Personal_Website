@@ -217,6 +217,7 @@ Some of my personal projects, and client projects. Non-listed projects will be o
                     <div class="col-lg-3 col-md-6">
                       <div class="card">
                         <div class="card-body">
+                          <img src="img/person1.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
                           <h3>Omifood</h3>
                           <h5 class="text-muted">Website</h5>
                           <p>The first website I made via an online course.</p>
@@ -231,6 +232,7 @@ Some of my personal projects, and client projects. Non-listed projects will be o
                     <div class="col-lg-3 col-md-6">
                       <div class="card">
                         <div class="card-body">
+                          <img src="img/person2.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
                           <h3>My personal Website</h3>
                           <h5 class="text-muted">Resume Site</h5>
                           <p>My personal website as it is now.</p>
@@ -245,6 +247,7 @@ Some of my personal projects, and client projects. Non-listed projects will be o
                     <div class="col-lg-3 col-md-6">
                       <div class="card">
                         <div class="card-body">
+                          <img src="img/person3.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
                           <h3>Bootstrap Tutorial Site</h3>
                           <h5 class="text-muted">Website</h5>
                           <p>A tutorial on Bootstrap four created via an Udemy course.</p>
@@ -259,6 +262,7 @@ Some of my personal projects, and client projects. Non-listed projects will be o
                     <div class="col-lg-3 col-md-6">
                       <div class="card">
                         <div class="card-body">
+                          <img src="img/person4.jpg" alt="" class="img-fluid rounded-circle w-50 mb-3">
                           <h3>Glozzum Website</h3>
                           <h5 class="text-muted">Website</h5>
                           <p>A multi page comnpany webpage.</p>
@@ -293,25 +297,25 @@ Some of my personal projects, and client projects. Non-listed projects will be o
     <div class="row">
       <div class="col-lg">
         <h3>Get In Touch</h3>
+        <p><b>Currently not working, will fix as soon as possible.</b></P>
         <p class="lead">Starting this May, I will be available for Front End Web Development work. If you need a website built; I would be glad to help you accomplish your goal.</p>
-        <form action="https://formspree.io/erikjt@outlook.com"
-      method="POST">
+        <form>
           <div class="form-group">
             <div class="input-group input-group-lg">
               <span class="input-group-addon"><i class="fa fa-user"></i></span>
-              <input type="text" class="form-control" name="name" placeholder="Name">
+              <input type="text" class="form-control" placeholder="Name">
             </div>
           </div>
           <div class="form-group">
             <div class="input-group input-group-lg">
               <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-              <input type="email" class="form-control" name="_replyto" placeholder="Email">
+              <input type="email" class="form-control" placeholder="Email">
             </div>
           </div>
           <div class="form-group">
             <div class="input-group input-group-lg">
               <span class="input-group-addon"><i class="fa fa-pencil"></i></span>
-              <textarea class="form-control" name="message" placeholder="Message" rows="5"></textarea>
+              <textarea class="form-control" placeholder="Message" rows="5"></textarea>
             </div>
           </div>
           <input type="submit" value="Submit" class="btn btn-primary btn-block btn-lg">
